@@ -1,0 +1,4 @@
+2020-11-02T02:59:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\wp-db.php on line 2033
+
+2020-11-02T02:59:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\class-wp-image-editor.php on line 489
+
