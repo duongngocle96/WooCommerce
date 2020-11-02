@@ -26,13 +26,16 @@
 							<div class="box-footer info-contact">
 								<h3>Thông tin khác</h3>
 								<div class="content-list">
-									<ul>
-										<li><a href="#"><i class="fa fa-angle-double-right"></i> Chính sách bảo mật</a></li>
-										<li><a href="#"><i class="fa fa-angle-double-right"></i> Chính sách đổi trả</a></li>
-										<li><a href="#"><i class="fa fa-angle-double-right"></i> Phí vẫn chuyển</a></li>
-										<li><a href="#"><i class="fa fa-angle-double-right"></i> Hướng dẫn thanh toán</a></li>
-										<li><a href="#"><i class="fa fa-angle-double-right"></i> Chương trình khuyến mãi</a></li>
-									</ul>
+									<?php 
+					            	wp_nav_menu( 
+					               array( 
+					                      'theme_location' => 'menu_footer',
+					                      'container' => 'false',
+					                      'menu_class' => 'menu_footer',
+					                      'menu_id' => 'menu_footer',
+					                   ) 
+					                ); ?>
+									
 								</div>
 							</div>
 						</div>

@@ -2,7 +2,11 @@
 
 			<div id="content">
 				<div class="container">
-				 <?php get_template_part('slider'); ?>
+					<div class="slider">
+						   			<?php get_template_part('slider'); ?>
+
+						
+					</div>
 
 
 				</div>
