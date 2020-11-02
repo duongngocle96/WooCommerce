@@ -1,12 +1,13 @@
 <?php 
 //code mặc định khi lập trình thêm woo
-
 function my_custom_wc_support(){
 		add_theme_support('woocommerce');
 		add_theme_support('wc-product-gallery-lightbox');
 		add_theme_support('wc-product-gallery-slide');
 
 	}
+  add_action('after_setup_theme','my_custom_wc_support');
+
 
 function initTheme(){
 		//chuyển trình saọn thảo phiên bản mới về cũ
@@ -14,7 +15,7 @@ function initTheme(){
 		//đăng kí các menu..
 
 		register_nav_menu('header-main',__('menu main'));
-		register_nav_menu('header-category',__('menu categories'));
+		register_nav_menu('header-top',__('menu top'));
 		register_nav_menu('menu_footer',__('menu footer'));
 		//đăng kí saidebar..
 		if (function_exists('register_sidebar')){

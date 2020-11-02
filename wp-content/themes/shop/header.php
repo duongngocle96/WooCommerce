@@ -19,12 +19,15 @@
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 								<div class="top-menu">
-									<ul>
-										<li><a href="#">Giỏ hàng</a></li>
-										<li><a href="#">Cửa hàng</a></li>
-										<li><a href="#">Tài khoản</a></li>
-										<li><a href="#">Liên hệ</a></li>
-									</ul>
+											<?php 
+					            wp_nav_menu( 
+					                  array( 
+					                      'theme_location' => 'header-top',
+					                      'container' => 'false',
+					                      'menu_class' => 'top-menu"',
+					                      'menu_id' => '',
+					                   ) 
+					                ); ?>
 								</div>
 							</div>
 						</div>
@@ -35,8 +38,8 @@
 						<div class="row">
 							<div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 order-md-0 order-0">
 								<div class="logo">
-									<a href="#"><img src="images/logo.png" alt=""></a>
-									<h1>Website bán hàng</h1>
+									<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt=""></a>
+									<h1><?php bloginfo('name') ?></h1>
 								</div>
 							</div>
 							<div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 order-md-1 order-2">
@@ -58,7 +61,7 @@
 								</div>
 							</div>
 							<div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 order-md-2 order-1" style="text-align: right">
-								<a href="#" class="icon-cart">
+								<a href="<?php bloginfo('url') ?>/cart" class="icon-cart">
 									<div class="icon">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										<span>3</span>
@@ -81,7 +84,7 @@
 					                  array( 
 					                      'theme_location' => 'header-main',
 					                      'container' => 'false',
-					                      'menu_class' => 'navbar-nav ml-auto',
+					                      'menu_class' => 'current-menu-item',
 					                      'menu_id' => '',
 					                   ) 
 					                ); ?>
