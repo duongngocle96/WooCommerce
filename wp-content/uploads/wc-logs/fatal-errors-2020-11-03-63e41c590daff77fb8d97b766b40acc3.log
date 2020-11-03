@@ -1,0 +1,54 @@
+2020-11-03T02:20:24+00:00 CRITICAL syntax error, unexpected ''taxonomy'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 13
+
+2020-11-03T02:20:46+00:00 CRITICAL syntax error, unexpected '$category' (T_VARIABLE) in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 17
+
+2020-11-03T04:46:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::rel_regula_price() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php:47
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\shop\index.php(15): get_template_part('content')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 47
+
+2020-11-03T04:47:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::rel_regula_price() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php:47
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\shop\index.php(15): get_template_part('content')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 47
+
+2020-11-03T04:49:39+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::rel_regular_price() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php:47
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\shop\index.php(15): get_template_part('content')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 47
+
+2020-11-03T04:49:45+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::rel_regular_price() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php:47
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\shop\index.php(15): get_template_part('content')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 47
+
+2020-11-03T09:26:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\tracks\class-wc-tracks-event.php on line 168
+

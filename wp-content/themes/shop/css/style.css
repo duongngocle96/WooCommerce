@@ -1,0 +1,9 @@
+#content .item-product .thumb img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+#content .item-product .info-product .price del * {
+    color: #000;
+    text-decoration: line-through;
+}
