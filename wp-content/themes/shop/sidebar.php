@@ -3,15 +3,19 @@
 										<h3>Danh mục sản phẩm</h3>
 										<div class="content-cat">
 											<ul>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Điện thoại</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Máy tính bảng</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">laptop</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Apple</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Đồng hồ thông minh</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Thiết bị đeo tay</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Camera</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Tivi</a></li>
-												<li><i class="fa fa-angle-right"></i> <a href="#">Sản phẩm khác</a></li>
+												<?php
+												$args = array(
+												    'type'      => 'product',
+												    'child_of'  => 0,
+												    'parent'    => 0,
+												    'taxonomy'	=>'product_cat',
+												);
+												$categories = get_categories( $args );
+												foreach ( $categories as $category ) { ?>
+													<li><i class="fa fa-angle-right"></i> 
+														<a href="<?php  echo get_term_link($category->slug, 'product_cat');?>"><?php echo $category->name ; ?>
+														</a></li>
+												<?php } ?>
 											</ul>
 										</div>
 									</div>
@@ -22,21 +26,26 @@
 										</h3>
 										<div class="content-w">
 											<ul>
+									
 												<li>
-													<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/news.jpg" alt=""></a>
-													<h4><a href="#">Thương hiệu đồng hồ thông minh Sinophy của nước nào?</a></h4>
+													<?php 
+										$args = array(
+											'post_status' => 'publish',
+											'post_type' => 'post', 
+											'showposts' => 12, 
+											//'cat' => 1, // lấy bài viết trong chuyên mục có id là 1
+										);
+									?>
+									<?php $getposts = new WP_query($args); ?>
+									<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+									<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+										<a href="#"><img src="<?php echo get_the_post_thumbnail(get_the_ID(), 'full', array( 'class' =>'thumnail') ); ?></a>
+													<h4><a href="#"><?php the_title(); ?></a></h4>
 													<div class="clear"></div>
+									<?php endwhile; wp_reset_postdata(); ?>
+													
 												</li>
-												<li>
-													<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/news.jpg" alt=""></a>
-													<h4><a href="#">Thương hiệu đồng hồ thông minh Sinophy của nước nào?</a></h4>
-													<div class="clear"></div>
-												</li>
-												<li>
-													<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/news.jpg" alt=""></a>
-													<h4><a href="#">Thương hiệu đồng hồ thông minh Sinophy của nước nào?</a></h4>
-													<div class="clear"></div>
-												</li>
+												
 												
 											</ul>
 										</div>

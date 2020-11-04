@@ -1,0 +1,4 @@
+2020-11-04T15:15:10+00:00 CRITICAL syntax error, unexpected ''product_cat'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 79
+
+2020-11-04T15:16:03+00:00 CRITICAL syntax error, unexpected ''product_cat'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\shop\content.php on line 79
+
