@@ -43,28 +43,37 @@
 								</div>
 							</div>
 							<div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 order-md-1 order-2">
+								
+
 								<div class="form-seach-product">
-									<form action="/" method="GET" role="form">
-										<select name="" id="input" class="form-control" required="required">
-											<option value="">Chọn danh mục</option>
-											<?php
-												$args = array(
-												    'type'      => 'product',
-												    'child_of'  => 0,
-												    'parent'    => 0,
-												    'taxonomy'	=>'product_cat',
-												);
-												$categories = get_categories( $args );
-												foreach ( $categories as $category ) { ?>
-													<option value="1"><?php echo $category->name ; ?></option>
-												<?php } ?>
-										</select>
-										<div class="input-seach">
-											<input type="text" name="s" id="" class="form-control">
-											<button type="submit" class="btn-search-pro"><i class="fa fa-search"></i></button>
-										</div>
+
+
+								<form action="<?php bloginfo('url'); ?>/" method="GET" role="form">
+	
+								<select name="product_cat" id="input" class="form-control" required="required">
+									<option value="">Chọn danh mục</option>
+									<?php $args = array( 
+									    'hide_empty' => 0,
+									    'taxonomy' => 'product_cat',
+									    'orderby' => id,
+									    ); 
+									    $cates = get_categories( $args ); 
+									    foreach ( $cates as $cate ) {  ?>
+											<option value="<?php echo $cate->slug; ?>"><?php echo $cate->name; ?></option>
+									<?php } ?>
+								</select>
+								<div class="input-seach">
+								<input type="hidden" name="post_type" value="product">
+								<input type="text" class="form-control" id="name" name="s" placeholder="Nhập tên sản phẩm...">
+							<button type="submit" class="btn-search-pro"><i class="fa fa-search"></i></button>
+						</div>
 										<div class="clear"></div>
-									</form>
+
+							</form>
+
+
+
+
 								</div>
 							</div>
 							<div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 order-md-2 order-1" style="text-align: right">
