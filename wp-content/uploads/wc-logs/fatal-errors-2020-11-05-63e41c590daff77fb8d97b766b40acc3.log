@@ -1,2 +1,12 @@
 2020-11-05T02:03:30+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\shop\sidebar.php on line 80
 
+2020-11-05T07:09:24+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\themes\shop\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\shop\core\init.php on line 8
+
+2020-11-05T07:09:46+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\themes\shop\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\shop\core\init.php on line 8
+
+2020-11-05T07:09:48+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\themes\shop\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\shop\core\init.php on line 8
+
+2020-11-05T07:10:14+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\themes\shop\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\shop\core\init.php on line 8
+
+2020-11-05T07:10:59+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\themes\shop\core/options.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\shop\core\init.php on line 8
+

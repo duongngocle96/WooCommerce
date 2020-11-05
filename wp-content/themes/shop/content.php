@@ -49,7 +49,7 @@
 														</span>
 													<?php } ?>
 														<div class="action">
-															<a href="?add_to_cart=<?php the_ID(); ?>" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+															<a href="?add_to_cart=<?php the_ID(); ?>" class="buy"><i class="fa fa-cart-plus"></i>Mua ngay</a>
 															<a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
 															<div class="clear"></div>
 														</div>

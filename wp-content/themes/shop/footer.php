@@ -1,24 +1,26 @@
-
-			<footer>
+ <footer>
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="box-footer info-contact">
 								<h3>Thông tin liên hệ</h3>
 								<div class="content-contact">
-									<p>Website chuyên cung cấp thiết bị điện tử hàng đầu Việt Nam</p>
+									<p><?php
+					                    setting_footer();
+					                    ?></p>
 									<p>
-										<strong>Địa chỉ:</strong> 457/44 Tôn Đức Thắng, Liên Chiểu, Đà Nẵng
+										<strong>Địa chỉ:</strong><?php add(); ?>
 									</p>
 									<p>
-										<strong>Email: </strong> thietkeweb43.com@gmail.com
+										<strong>Email: </strong><?php Email(); ?>
 									</p>
 									<p>
-										<strong>Điện thoại: </strong> 0358949xxx
+										<strong>Điện thoại: </strong><?php sdt(); ?>
 									</p>
 									<p>
-										<strong>Website: </strong> https://huykira.net
+										<strong>Điện thoại: </strong><?php www(); ?>
 									</p>
+									
 								</div>
 							</div>
 						</div>

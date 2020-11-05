@@ -1,4 +1,8 @@
 <?php 
+
+	define( 'THEME_URL' , get_stylesheet_directory());
+    define('CORE', THEME_URL . "/core");
+    require_once( CORE . "/init.php" );
 		//code mặc định khi lập trình thêm woo
 function my_custom_wc_support(){
 		add_theme_support('woocommerce');
@@ -58,4 +62,45 @@ function sale($price , $price_sale ){
 	return number_format($sale1);
 	
 }	
+
+//them option
+
+function setting_footer(){
+    global $tp_options;
+    echo '' . $tp_options['footer'];
+}
+function sdt(){
+    global $tp_options;
+    echo '' . $tp_options['sdt'];
+}
+function Email(){
+    global $tp_options;
+    echo '' . $tp_options['mail'];
+}
+function add(){
+    global $tp_options;
+    echo '' . $tp_options['add'];
+}
+function www(){
+    global $tp_options;
+    echo '' . $tp_options['www'];
+}
+
+
+if ( ! function_exists( 'thachpham_logo' ) ) {
+  function thachpham_logo() {?>
+    <?php
+      global $tp_options;
+    ?>
+ 
+    <?php if ( $tp_options['logo-on'] == 1 ) : ?>
+ 
+      <div class="logo">
+      	<a href="#">
+      	<img src="<?php echo $tp_options['logo-image']['url']; ?>">
+      </a>
+      </div> 
+      <?php endif;
+  }
+}
  ?>
