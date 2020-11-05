@@ -47,10 +47,17 @@
 									<form action="/" method="GET" role="form">
 										<select name="" id="input" class="form-control" required="required">
 											<option value="">Chọn danh mục</option>
-											<option value="1">Điện thoại</option>
-											<option value="2">Máy tính bản</option>
-											<option value="3">Lap top</option>
-											<option value="4">Phụ kiện</option>
+											<?php
+												$args = array(
+												    'type'      => 'product',
+												    'child_of'  => 0,
+												    'parent'    => 0,
+												    'taxonomy'	=>'product_cat',
+												);
+												$categories = get_categories( $args );
+												foreach ( $categories as $category ) { ?>
+													<option value="1"><?php echo $category->name ; ?></option>
+												<?php } ?>
 										</select>
 										<div class="input-seach">
 											<input type="text" name="s" id="" class="form-control">

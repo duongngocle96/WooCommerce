@@ -7,7 +7,7 @@
 												$args = array(
 												    'type'      => 'product',
 												    'child_of'  => 0,
-												    'parent'    => 0,
+												   
 												    'taxonomy'	=>'product_cat',
 												);
 												$categories = get_categories( $args );
@@ -55,11 +55,30 @@
 											<i class="fa fa-bars"></i>
 											Quảng cáo
 										</h3>
+										 <?php 
+                    $args = array(
+                      'posts_per_page' => -1,
+                      'post_type'      => 'bannerqc'
+                    );
+                    $the_query = new WP_Query( $args );
+                  ?>
+                  <?php if( $the_query->have_posts() ): ?>
+                  <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
 										<div class="content-banner">
+
 											<a href="#">
-												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner.png" alt="">
+												<?php echo get_the_post_thumbnail( get_the_ID(),'thumnail'); ?>
 											</a>
 										</div>
+
+
+							
+						
+						   <?php endwhile; ?>
+                  <?php endif; ?>
+                  <?php wp_reset_query();
+                ?>
 									</div>
 									<div class="widget">
 										<h3>
@@ -67,7 +86,8 @@
 											Facebook
 										</h3>
 										<div class="content-fb">
-											<div class="fb-page" data-href="https://www.facebook.com/huykiradotnet/" data-tabs="timeline" data-width="" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+											<div class="fb-page" data-href="https://www.facebook.com/btaskeedanang/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/btaskeedanang/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/btaskeedanang/">bTaskee Đà Nẵng - Giúp việc theo giờ</a></blockquote></div>
+											
 										</div>
 									</div>
 								</div>
