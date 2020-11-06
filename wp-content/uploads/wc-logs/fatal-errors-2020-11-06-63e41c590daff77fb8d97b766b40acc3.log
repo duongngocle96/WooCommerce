@@ -1,0 +1,120 @@
+2020-11-06T03:12:51+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:58
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 58
+
+2020-11-06T03:14:40+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:58
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 58
+
+2020-11-06T03:17:50+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:18:23+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:19:19+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:20:59+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:35:11+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:36:14+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:36:56+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:37:56+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:38:26+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 49
+
+2020-11-06T03:49:15+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:63
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 63
+
+2020-11-06T03:51:41+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_pagination() in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php:63
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 63
+
+2020-11-06T03:54:48+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\shop\category.php on line 62
+
+2020-11-06T17:18:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\blocks.php on line 186
+
+p on line 163
+
+2020-11-06T17:18:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\src\builders\indexable-hierarchy-builder.php on line 391
+
+2020-11-06T17:19:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\src\presentations\abstract-presentation.php on line 94
+
+2020-11-06T17:19:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\src\helpers\site-helper.php on line 33
+
+2020-11-06T17:22:39+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\wordpress\wp-content\themes\shop\single.php on line 22
+
+2020-11-06T17:22:40+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\wordpress\wp-content\themes\shop\single.php on line 22
+

@@ -103,4 +103,29 @@ if ( ! function_exists( 'thachpham_logo' ) ) {
       <?php endif;
   }
 }
+
+function wp_get_pagination($getposts)
+{
+  $big = 999999999; // need an unlikely integer
+  //global $wp_query;
+  $pages = paginate_links(array(
+    'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+    'format' => '?paged=%#%',
+    'prev_text'    => __('<<'),
+    'next_text'    => __('>>'),
+    'current' => max(1, get_query_var('paged')),
+    'total' => $getposts->max_num_pages,
+    'type'  => 'array',
+
+  ));
+  
+    if( is_array( $pages ) ) {
+        $paged = ( get_query_var('paged') == 0 ) ? 1 : get_query_var('paged');
+        echo '<div class="col-lg-12 pagination">';
+        foreach ( $pages as $page ) {
+                echo "$page";
+        }
+       echo '</ul></div>';
+        }
+}
  ?>
